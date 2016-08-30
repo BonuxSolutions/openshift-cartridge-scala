@@ -1,17 +1,18 @@
 Name: scala
 Cartridge-Short-Name: SCALA
-Display-Name: scala Cartridge
-Description: "A scala cartridge"
-Version: '0.6.3'
+Display-Name: Scala Cartridge
+Description: "A Scala cartridge"
+Version: '0.0.1'
 License: "MIT"
 Vendor: google
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: filirom1
+Cartridge-Vendor: bonuxsolutions
 Categories:
   - service
   - web_framework
 Provides:
   - scala
+  - sbt
 Scaling:
   Min: 1
   Max: -1
