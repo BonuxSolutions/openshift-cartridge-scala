@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
-PATH=${OPENSHIFT_DATA_DIR}/scala/bin/:${OPENSHIFT_DATA_DIR}/sbt/bin/:/bin/:/usr/bin:$PATH
+export JAVA_HOME=/etc/alternatives/java_sdk_1.8.0
+export PATH=${OPENSHIFT_DATA_DIR}/scala/bin/:${OPENSHIFT_DATA_DIR}/sbt/bin/:/bin/:/usr/bin:${JAVA_HOME}/bin:$PATH
 
 function start {
     cd $OPENSHIFT_REPO_DIR
